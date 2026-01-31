@@ -76,8 +76,8 @@
     "type": "Pos_Fun",
     "name": "Long mixed-language paragraph input",
     "length": "L",
-    "input": "adha udhee paasal yanna kalin mama bus halt ekata giyaa. ehi lamayi godak hitiyath, bus eka late una nisaa api tikak velaa innavaa. passe mama phone eke WiFi on karala message ekak WhatsApp vaalin yavala, teacher ta kiyuvath \"mama poddak late venavaa\" kiyala. me vagee deval adha dhavasema venavaa, ehenam api ithin sathutin inna oona.",
-    "expected": "අද උදේ පාසල් යන්න කලින් මම bus halt එකට ගියා. එහි ලමයි ගොඩක් හිටියත්, bus එක late උන නිසා අපි ටිකක් වෙලා ඉන්නවා. පස්සෙ මම phone eke WiFi on කරල message එකක් WhatsApp වාලින් යවල, teacher ට කියුවත් \"මම පොඩ්ඩක් late වෙනවා\" කියල. මෙ වගේ ඩෙවල් අද දවසෙම වෙනවා, එහෙනම් අපි ඉතින් සතුටින් ඉන්න ඕන"
+    "input": "adha udhee campus yanna kalin mama bus halt ekata giyaa. eeke Lamayi godak hitiyath, bus eka late uNa nisaa api tikak velaa innavaa. passe mama phone ekee WiFi on karala message ekak WhatsApp valin yavala, teacher ta kivvath \"mama poddak late venavaa\" kiyala. me vagee dheeval adha dhavaseema venavaa, eka hinda api lectures giyee naee.",
+    "expected": "අද උදේ campus යන්න කලින් මම bus halt එකට ගියා. ඒකෙ ළමයි ගොඩක් හිටියත්, bus එක late උණ නිසා අපි ටිකක් වෙලා ඉන්නවා. පස්සෙ මම phone එකේ WiFi on කරල message එකක් WhatsApp වලින් යවල, teacher ට කිව්වත් \"මම පොඩ්ඩක් late වෙනවා\" කියල. මෙ වගේ දේවල් අද දවසේම වෙනවා, එක හින්ඩ අපි lectures ගියේ නෑ."
   },
   {
     "id": "Pos_Fun_0010",
