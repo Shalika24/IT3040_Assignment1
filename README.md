@@ -100,5 +100,5 @@ The GitHub repository link is provided separately in the file:
 
 ## Author
 
-LEWLE L. I. G. S. L.
+LEWLE L. I. G. S. L
 IT23308084
