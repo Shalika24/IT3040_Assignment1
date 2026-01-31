@@ -93,7 +93,7 @@ npx playwright show-report
 The GitHub repository link is provided separately in the file:
 
 ```
-git_repo_link.txt
+[git_repo_link.txt](https://github.com/Shalika24/IT3040_Assignment1)
 ```
 
 ---
