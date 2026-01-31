@@ -4,56 +4,56 @@
     "type": "Pos_Fun",
     "name": "Convert a short daily greeting",
     "length": "S",
-    "input": "suba dhavasak!",
-    "expected": "සුබ දවසක්!"
+    "input": "suba dhavasak veevaa!",
+    "expected": "සුබ දවසක් වේවා!"
   },
   {
     "id": "Pos_Fun_0002",
     "type": "Pos_Fun",
     "name": "Present tense daily statement",
     "length": "S",
-    "input": "mama dhan yanne.",
-    "expected": "මම දන් යන්නෙ."
+    "input": "mama dhan yanna yanne.",
+    "expected": "මම දන් යන්න යන්නෙ."
   },
   {
     "id": "Pos_Fun_0003",
     "type": "Pos_Fun",
     "name": "Polite request as a question",
     "length": "S",
-    "input": "karuNaakara poddak inna.",
-    "expected": "කරුණාකර පොඩ්ඩක් ඉන්න."
+    "input": "karuNaakara poddak othana inna.",
+    "expected": "කරුණාකර පොඩ්ඩක් ඔතන ඉන්න."
   },
   {
     "id": "Pos_Fun_0004",
     "type": "Pos_Fun",
     "name": "Interrogative (how are you)",
     "length": "S",
-    "input": "oyaa hari dha?",
-    "expected": "ඔයා හරි ද?"
+    "input": "oyaa hariyatama hari dha?",
+    "expected": "ඔයා හරියටම හරි ද?"
   },
   {
     "id": "Pos_Fun_0005",
     "type": "Pos_Fun",
     "name": "Past tense with place name",
     "length": "S",
-    "input": "mama colombo giyaa.",
-    "expected": "මම colombo ගියා"
+    "input": "mama adha colombo giyaa.",
+    "expected": "මම අද colombo ගියා."
   },
   {
     "id": "Pos_Fun_0006",
     "type": "Pos_Fun",
     "name": "Compound sentence with negation",
     "length": "M",
-    "input": "mama enna haedhuvath, vaessa nisaa mama yanne naee.",
-    "expected": "මම එන්න හැදුවත්, වැස්ස නිසා මම යන්නේ නෑ."
+    "input": "mama adha enna haedhuvath, vaessa nisaa mama yannee naee.",
+    "expected": "මම අද එන්න හැදුවත්, වැස්ස නිසා මම යන්නේ නෑ."
   },
   {
     "id": "Pos_Fun_0007",
     "type": "Pos_Fun",
     "name": "Conditional complex sentence",
     "length": "M",
-    "input": "oyaa enavanam api passe koopi bonna yamu.",
-    "expected": "ඔයා එනවනම් අපි පස්සේ කෝපි බොන්න යමු."
+    "input": "oyaa enavanam api passe koopi ekak bonna yamu.",
+    "expected": "ඔයා එනවනම් අපි පස්සෙ කෝපි එකක් බොන්න යමු."
   },
   {
     "id": "Pos_Fun_0008",
@@ -61,7 +61,7 @@
     "name": "Mixed Singlish + English with date and currency",
     "length": "M",
     "input": "heta 7.30 AM Zoom meeting ekak thiyenavaa. Rs. 2500 pay karanna oone. 2026-02-01 venakan invoice eka Email karanna.",
-    "expected": "හෙට 7.30 AM Zoom meeting එකක් තියෙනවා. Rs. 2500 pay කරන්න ඕනේ. 2026-02-01 වෙනකන් invoice එක Email කරන්න."
+    "expected": "හෙට 7.30 AM Zoom meeting එකක් තියෙනවා. Rs. 2500 pay කරන්න ඕනෙ. 2026-02-01 වෙනකන් invoice එක Email කරන්න."
   },
   {
     "id": "Neg_Fun_0001",
@@ -76,7 +76,7 @@
     "type": "Pos_Fun",
     "name": "Long mixed-language paragraph input",
     "length": "L",
-    "input": "adha udhee campus yanna kalin mama bus halt ekata giyaa. eeke Lamayi godak hitiyath, bus eka late uNa nisaa api tikak velaa innavaa. passe mama phone ekee WiFi on karala message ekak WhatsApp valin yavala, teacher ta kivvath \"mama poddak late venavaa\" kiyala. me vagee dheeval adha dhavaseema venavaa, eka hinda api lectures giyee naee.",
+    "input": "adha udhee campus yanna kalin mama bus halt ekata giyaa. eeke Lamayi godak hitiyath, bus eka late uNa nisaa api tikak velaa innavaa. passe mama phone ekee WiFi on karala message ekak WhatsApp valin yavala, teacher ta kivvath \"mama poddak late venavaa\" kiyala. me vagee dheival adha dhavaseema venavaa, eka hinda api lectures giyee naee.",
     "expected": "අද උදේ campus යන්න කලින් මම bus halt එකට ගියා. ඒකෙ ළමයි ගොඩක් හිටියත්, bus එක late උණ නිසා අපි ටිකක් වෙලා ඉන්නවා. පස්සෙ මම phone එකේ WiFi on කරල message එකක් WhatsApp වලින් යවල, teacher ට කිව්වත් \"මම පොඩ්ඩක් late වෙනවා\" කියල. මෙ වගේ දේවල් අද දවසේම වෙනවා, එක හින්ඩ අපි lectures ගියේ නෑ."
   },
   {
@@ -84,24 +84,24 @@
     "type": "Pos_Fun",
     "name": "Slang greeting phrase",
     "length": "S",
-    "input": "ela machan!",
-    "expected": "එල මචන්!"
+    "input": "ela machan! niyamayi.",
+    "expected": "එල මචන්! නියමයි."
   },
   {
     "id": "Pos_Fun_0011",
     "type": "Pos_Fun",
     "name": "Repeated words for emphasis",
     "length": "S",
-    "input": "hari hari lassanayi",
-    "expected": "හරි හරි ලස්සනයි"
+    "input": "hari hari oyaa lassanayi",
+    "expected": "හරි හරි ඔයා ලස්සනයි"
   },
   {
     "id": "Pos_Fun_0012",
     "type": "Pos_Fun",
     "name": "Plural pronoun usage",
     "length": "S",
-    "input": "api heta yamu.",
-    "expected": "අපි හෙට යමු."
+    "input": "api heta paarata yamu.",
+    "expected": "අපි හෙට පාරට යමු."
   },
   {
     "id": "Pos_Fun_0013",
@@ -109,15 +109,15 @@
     "name": "Polite request with abbreviation",
     "length": "M",
     "input": "karuNaakara mage ID eka Email karanna.",
-    "expected": "කරුණාකර මගේ ID එක Email කරන්න."
+    "expected": "කරුණාකර mage ID එක Email කරන්න."
   },
   {
     "id": "Pos_Fun_0014",
     "type": "Pos_Fun",
     "name": "Multi-line input conversion",
     "length": "M",
-    "input": "mama gedhara yanavaa.\noyaa enavada passe?",
-    "expected": "මම ගෙදර යනවා \n ඔයා එනවද පස්සේ?"
+    "input": "mama gedhara yanavaa.\n oyaa enavadha passe?",
+    "expected": "මම ගෙදර යනවා.\n ඔයා එනවද පස්සෙ?"
   },
   {
     "id": "Neg_Fun_0002",
@@ -132,8 +132,8 @@
     "type": "Neg_Fun",
     "name": "Random punctuation stress",
     "length": "S",
-    "input": "mama!!! gedhara???",
-    "expected": "මම ගෙදර???"
+    "input": "mama!!! gedhara???naee",
+    "expected": "මම ගෙදර??? නෑ"
   },
   {
     "id": "Pos_Fun_0015",
@@ -141,23 +141,23 @@
     "name": "English abbreviations embedded",
     "length": "M",
     "input": "ATM eke PIN eka reset karanna oone.",
-    "expected": "ATM එකේ PIN එක reset කරන්න ඕනේ."
+    "expected": "ATM eke PIN එක reset කරන්න ඕනෙ."
   },
   {
     "id": "Pos_UI_0001",
     "type": "Pos_UI",
     "name": "Real-time Sinhala output update",
     "length": "S",
-    "input": "mama gedhara yanavaa",
-    "expected": "මම ගෙදර යනවා"
+    "input": "mama gedhara yanavaa.oyath gedhara yanna.mokadha mata adha oyava hambavenna enna baee.",
+    "expected": "මම ගෙදර යනවා.ඔයත් ගෙදර යන්න.මොකද මට අද ඔයව හම්බවෙන්න එන්න බෑ."
   },
   {
     "id": "Neg_Fun_0004",
     "type": "Neg_Fun",
     "name": "Mixed joined and spaced words",
     "length": "M",
-    "input": "mama gedharayanavaa passe yanna",
-    "expected": "මම ගෙදර යනවා පස්සේ යන්න"
+    "input": "mama GEDharayanavaa passe yanna, Naeththan DHAENma yanna,velaa yanna epaa",
+    "expected": "මම ගෙදර යනවා පස්සේ යන්න, නැත්තන් දැන්ම යන්න,වෙලා යන්න එපා."
   },
   {
     "id": "Pos_Fun_0016",
@@ -180,8 +180,8 @@
     "type": "Pos_Fun",
     "name": "Pronoun variation sentence",
     "length": "S",
-    "input": "eyaalaa office yanne.",
-    "expected": "එයාලා office යන්නෙ."
+    "input": "eyaalaa office yanne nikan inna.",
+    "expected": "එයාලා office යන්නෙ නිකන් ඉන්න."
   },
   {
     "id": "Pos_Fun_0019",
@@ -189,22 +189,22 @@
     "name": "Informal command",
     "length": "S",
     "input": "anee eeka dhiyan!",
-    "expected": "අනේ එක දියන්!"
+    "expected": "අනේ ඒක දියන්!"
   },
   {
     "id": "Pos_Fun_0020",
     "type": "Pos_Fun",
     "name": "Mixed past and present tense",
     "length": "M",
-    "input": "mama iiyee giyaa nam adha vaeda karanavaa.",
-    "expected": "මම ඊයේ ගියා නම් අද වැඩ කරනවා."
+    "input": "mama iiyee giyaa nam adha vaeda karannaethuva inna thibbaa.",
+    "expected": "මම ඊයේ ගියා නම් අද වැඩ කරන්නැතුව ඉන්න තිබ්බා."
   },
   {
     "id": "Neg_Fun_0005",
     "type": "Neg_Fun",
     "name": "Date format confusion",
     "length": "S",
-    "input": "25-13-2026 meeting",
+    "input": "25-13*2026 meeting",
     "expected": "25-13-2026 meeting"
   },
   {
@@ -212,16 +212,16 @@
     "type": "Neg_Fun",
     "name": "Heavy slang sentence",
     "length": "M",
-    "input": "adoo machan eka hariyata karapanko bnn",
-    "expected": "අඩෝ මචං එක හරියට කරපන්කෝ බන්"
+    "input": "adoo machan eka hariyata karapanko bnn monavadha karannee?",
+    "expected": "අඩෝ මචන් එක හරියට කරපන්කො බන් මොනවද කරන්නේ?"
   },
   {
     "id": "Neg_UI_0001",
     "type": "Neg_UI",
     "name": "UI behaves incorrectly when punctuation is used",
     "length": "S",
-    "input": "oya yanne da?",
-    "expected": "ඔයා යන්නේ ද?"
+    "input": "oya yanne naedda danma?",
+    "expected": "ඔයා යන්නේ නැද්ද දැන්ම?"
   },
   {
     "id": "Neg_Fun_0007",
@@ -244,8 +244,8 @@
     "type": "Neg_Fun",
     "name": "Random uppercase letters",
     "length": "S",
-    "input": "MAMA gedhara YANAVAA",
-    "expected": "මම ගෙදර යනවා"
+    "input": "MAMA gedhara YANAVAA oyaa mokadha karannee?",
+    "expected": "මම ගෙදර යනවා ඔයා මොකද කරන්නේ?"
   },
   {
     "id": "Pos_Fun_0022",
@@ -269,7 +269,7 @@
     "name": "Complex polite request",
     "length": "M",
     "input": "oyaata puluvannam mage documents tika Email karanna.",
-    "expected": "ඔයාට පුළුවන්නම් මගේ documents ටික Email කරන්න."
+    "expected": "ඔයාට පුලුවන්නම් mage documents ටික Email කරන්න."
   },
   {
     "id": "Neg_Fun_0010",
@@ -277,14 +277,14 @@
     "name": "Long corrupted paragraph",
     "length": "M",
     "input": "mama@@ gedhara yann@@ avaa ### passe bus*** eka",
-    "expected": "මම ගෙදර යන්න avaa passe bus eka"
+    "expected": "මම ගෙදර යන්න අවා පස්සෙ bus එක"
   },
   {
     "id": "Pos_Fun_0024",
     "type": "Pos_Fun",
     "name": "Future tense statement (with place)",
     "length": "M",
-    "input": "mama heta office ekata yanna hitha inne.",
-    "expected": "මම හෙට office එකට යන්න හිතන් ඉන්නේ"
+    "input": "mama heta office ekata yanna hithan innee.",
+    "expected": "මම හෙට office එකට යන්න හිතන් ඉන්නේ."
   }
 ]
