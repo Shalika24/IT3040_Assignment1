@@ -2,10 +2,10 @@
 const { defineConfig, devices } = require('@playwright/test');
 
 module.exports = defineConfig({
-  // ⏱️ Global timeout per test
+
   timeout: 60000,
 
-  // ⏱️ Timeout for expect() conditions
+
   expect: {
     timeout: 15000
   },
