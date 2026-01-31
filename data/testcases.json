@@ -220,7 +220,7 @@
     "type": "Neg_UI",
     "name": "UI behaves incorrectly when punctuation is used",
     "length": "S",
-    "input": "oya yannee naedda danma?",
+    "input": "oya yanne naedda danma?",
     "expected": "ඔයා යන්නේ නැද්ද දැන්ම?"
   },
   {
