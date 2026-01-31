@@ -35,10 +35,14 @@ test.describe("SwiftTranslator Singlish → Sinhala (Excel cases)", () => {
         await expect(actual, `Neg case did not fail: ${tc.id}`).not.toBe(expected);
 
       } else if (tc.type === "Pos_UI") {
-        // UI responsiveness check
-        await expect(actual.length, `UI output empty: ${tc.id}`).toBeGreaterThan(0);
+        await expect(actual.length).toBeGreaterThan(0) ;
 
-      } else {
+      } else if (tc.type === "Neg_UI") {
+        await expect(actual, `Neg UI behaved correctly when it should not: ${tc.id}`)
+        .not.toBe(expected);
+      }
+
+      else {
         throw new Error(`Unknown test type: ${tc.type}`);
       }
     });

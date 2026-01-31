@@ -167,14 +167,14 @@
     "input": "mama yanne.",
     "expected": "මම යන්නේ."
   },
-  {
-    "id": "Pos_UI_0002",
-    "type": "Pos_UI",
-    "name": "UI conversion with punctuation",
-    "length": "S",
-    "input": "oya yanne da?",
-    "expected": "ඔයා යන්නේ ද?"
-  },
+ {
+   "id": "Neg_UI_0001",
+   "type": "Neg_UI",
+   "name": "UI fails or behaves unexpectedly with punctuation input",
+   "length": "S",
+   "input": "oya yanne da?",
+   "expected": "ඔයා යන්නේ ද?"
+ },
   {
     "id": "Neg_Fun_0001",
     "type": "Neg_Fun",
