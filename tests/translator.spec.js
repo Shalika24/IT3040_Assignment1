@@ -28,7 +28,6 @@ test.describe("SwiftTranslator Singlish → Sinhala (Excel cases)", () => {
       await input.fill("");
       await input.type(tc.input, { delay: 15 });
 
-      // ✅ Wait until output text changes (up to 15s)
       await expect
         .poll(async () => clean(await output.innerText()), { timeout: 15000 })
         .not.toBe(before);
@@ -40,14 +39,14 @@ test.describe("SwiftTranslator Singlish → Sinhala (Excel cases)", () => {
         await expect(actual, `Mismatch in ${tc.id}`).toBe(expected);
 
       } else if (tc.type === "Neg_Fun") {
-        // Neg_Fun passes when output != expected correct output
+        // Neg_Fun passes when output when not equal to expected correct output
         await expect(actual, `Neg case did not fail: ${tc.id}`).not.toBe(expected);
 
       } else if (tc.type === "Pos_UI") {
         await expect(actual.length, `UI output empty: ${tc.id}`).toBeGreaterThan(0);
 
       } else if (tc.type === "Neg_UI") {
-        // Neg_UI passes when output != expected
+        // Neg_UI passes when output when not equal to  expected
         await expect(actual, `Neg UI did not show the issue: ${tc.id}`).not.toBe(expected);
 
       } else {
