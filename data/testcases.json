@@ -44,7 +44,7 @@
     "type": "Pos_Fun",
     "name": "Compound sentence with negation",
     "length": "M",
-    "input": "mama enna haedhuvath, vaessa nisaa mama yanne nae.",
+    "input": "mama enna haedhuvath, vaessa nisaa mama yanne naee.",
     "expected": "මම එන්න හැදුවත්, වැස්ස නිසා මම යන්නේ නෑ."
   },
   {
